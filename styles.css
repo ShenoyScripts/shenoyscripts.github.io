@@ -39,7 +39,7 @@ header {
 .nav_links li a {
     transition: all 0.3s ease 0s;
     padding: 9px 25px;
-    background-color: rgba(0, 136 , 169, 0.2);
+    background-color: rgba(64, 195, 228, 0.872);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -51,7 +51,7 @@ header {
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0, 136 , 169, 0.2);
+    background-color: rgba(64, 195, 228, 0.872);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -83,6 +83,14 @@ button:hover {
     width: 20px;
     height: 20px;
     transition: 1s;
+}
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #ffff;
 }
 /*
 
