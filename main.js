@@ -1,7 +1,7 @@
 const toggle = document.getElementById("toggleDark");
 const body = document.querySelector('body');
 const image = document.querySelector("img")
-console.log(toggle)
+console.log("Vesrion 1")
 body.style.background = "#faebd7";
 
 toggle.addEventListener("click" , function(){

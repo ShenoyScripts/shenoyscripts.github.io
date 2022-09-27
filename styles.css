@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
 * {
      box-sizing: border-box;
      margin: 0;
@@ -12,6 +31,7 @@ body {
     line-height: 1.6;
     height: 100vh;
     overflow: hidden;
+    width: 100vw;
 }
 
 .container {
@@ -52,7 +72,7 @@ li , a , button {
     list-style: none;
     /* new */
     display: flex;
-    width: 100%;
+    width: 50%;
     justify-content: center;
 }
 
