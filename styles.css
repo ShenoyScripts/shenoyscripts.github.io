@@ -248,6 +248,40 @@ footer {
     font-weight: 200;
 }
 
+#projects h1 {
+    text-align: center;
+    height: 20%;
+}
+#projects #gamebox {
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 80%;
+    height: 70%;
+}
+.gamebox {
+    display: inline-block; *display: inline; zoom: 1; vertical-align: top;
+    /*display: flex;*/
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 25px;
+    border: 2px solid #02ccff;
+}
+#projects #gamebox #one {
+    height: 100%;
+    width: 30%;   
+}
+
+#projects #gamebox #two {
+    height: 100%;
+    width: 30%;
+}
+#projects #gamebox #three {
+    height: 100%;
+    width: 30%;
+}
+
 /*
 
 .theme {
